@@ -1123,14 +1123,14 @@ body.light-mode .contact span, body.light-mode #errorList {
 }
 
 @media screen and (min-width: 1280px) {
-    /* header - desktop */
+    /* header -  */
     header {
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    /* navigation - desktop */
+    /* navigation -  */
     nav {
         display: block;
     }
@@ -1159,7 +1159,7 @@ body.light-mode .contact span, body.light-mode #errorList {
         margin-right: auto;
     }
 
-    /* Possie section desktop */
+    /* Possie section  */
     .possie {
         display: grid;
         margin-top: 50px;
@@ -1207,7 +1207,7 @@ body.light-mode .contact span, body.light-mode #errorList {
         height: 350px;
     }
 
-    /* spurs section desktop */
+    /* spurs section */
     .spurs {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -1232,7 +1232,7 @@ body.light-mode .contact span, body.light-mode #errorList {
         width: 350px;
     }
 
-    /* Owner section desktop */
+    /* Owner section */
     .owner {
         display: grid;
         grid-template-columns: 1fr 1fr;
