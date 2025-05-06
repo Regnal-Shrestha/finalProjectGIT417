@@ -1216,7 +1216,7 @@ body.light-mode .contact span, body.light-mode #errorList {
     .spurs h2 {
         display: block;
         margin-top: 175px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
         text-align: center;
     }
 
@@ -1225,11 +1225,11 @@ body.light-mode .contact span, body.light-mode #errorList {
     }
 
     .spurs p ~ p {
-        margin-top: 250px;
+        margin-top: 350px;
     }
 
     .spurs img {
-        width: 250px;
+        width: 350px;
     }
 
     /* Owner section desktop */
