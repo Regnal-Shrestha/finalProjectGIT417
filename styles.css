@@ -310,7 +310,7 @@ main section img, main section section img {
     filter: drop-shadow(3px 0px 10px rgb(90, 248, 227));
 }
 
-/* Motorcycle Picture Section */
+/* Spurs Picture */
 .spurs {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -350,7 +350,7 @@ main section img, main section section img {
 .spurs p ~ p {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    margin-top: 425px;
+    margin-top: 325px;
     font-size: 14px;
 }
 
@@ -358,10 +358,7 @@ span {
     color: gold;
 }
 
-/* Vampire paragraphs */
-p span {
-    color: red;
-}
+
 
 /* Owner Information Section */
 .owner {
@@ -1123,7 +1120,7 @@ body.light-mode .contact span, body.light-mode #errorList {
 }
 
 @media screen and (min-width: 1280px) {
-    /* header -  */
+    /* header - */
     header {
         display: flex;
         justify-content: center;
@@ -1221,11 +1218,11 @@ body.light-mode .contact span, body.light-mode #errorList {
     }
 
     .spurs p {
-        margin-top: 450px;
+        margin-top: 275px;
     }
 
     .spurs p ~ p {
-        margin-top: 450px;
+        margin-top: 250px;
     }
 
     .spurs img {
