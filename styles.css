@@ -232,8 +232,8 @@ main section img, main section section img {
     width: 250px;
 }
 
-/* Grub Section - Popular Menu Items */
-.grub {
+/* menu Section - Popular Menu Items */
+.menu {
     background-color: var(--dark-blue);
     padding: 50px;
     display: grid;
@@ -241,36 +241,36 @@ main section img, main section section img {
     grid-template-rows: 100px 1fr 100px;
 }
 
-.grub h2 {
+.menu h2 {
     grid-column: 1 / 4;
 }
 
-.grub h2, .grub section h3 {
+.menu h2, .menu section h3 {
     text-align: center;
     margin-top: 0px;
 }
 
-.grub section h3 {
+.menu section h3 {
     margin-top: 0px;
 }
 
-.grub section p {
+.menu section p {
     text-align: justify;
 }
 
-.grub section {
+.menu section {
     display: flex;
     flex-direction: column;
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.grub section .section1 {
+.menu section .section1 {
     grid-column: 1 / 2;
     grid-row: 2 / 2;
 }
 
-.grub section .section2 {
+.menu section .section2 {
     grid-column: 2 / 3;
     grid-row: 2 / 2;
 }
@@ -280,16 +280,16 @@ main section img, main section section img {
     grid-row: 2 / 2;
 }
 
-.grub section section {
+.menu section section {
     display: grid;
     text-align: center;
 }
 
-.grub section img {
+.menu section img {
     margin: 0 auto;
 }
 
-.grub a {
+.menu a {
     padding: 20px 40px;
     grid-column: 2 / 3;
     grid-row: 3 / 3;
@@ -305,7 +305,7 @@ main section img, main section section img {
     border-radius: 50px;
 }
 
-.grub a:hover {
+.menu a:hover {
     background-color: var(--green);
     filter: drop-shadow(3px 0px 10px rgb(90, 248, 227));
 }
@@ -358,48 +358,6 @@ span {
     color: gold;
 }
 
-
-
-/* Owner Information Section */
-.owner {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    max-width: var(--width);
-}
-
-.owner h2, .owner h3 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-    color: var(--green);
-    height: 50px;
-}
-
-.owner h2 {
-    margin-top: 175px;
-}
-
-.owner h3 {
-    margin-top: 225px;
-}
-
-.owner p {
-    margin-top: 275px;
-}
-
-.owner img {
-    grid-column: 1 / 2;
-    grid-row: 1 / 4;
-    margin: 0 auto;
-}
-
-.owner p {
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-}
 
 /* Form Section */
 .contact {
@@ -678,24 +636,24 @@ body.light-mode .possie img {
     filter: drop-shadow(3px 0px 10px rgb(0, 0, 0));
 }
 
-body.light-mode .grub {
+body.light-mode .menu {
     background-color: #93BEFF;
 }
 
-body.light-mode .grub section img {
+body.light-mode .menu section img {
     filter: drop-shadow(3px 0px 10px rgb(0, 0, 0));
     border: 2px solid #7CB2A2;
 }
 
-body.light-mode .grub a {
+body.light-mode .menu a {
     filter: none;
 }
 
-body.light-mode .grub a:hover {
+body.light-mode .menu a:hover {
     filter: none;
 }
 
-body.light-mode .spurs img, body.light-mode .owner img {
+body.light-mode .spurs img, body.light-mode  {
     filter: drop-shadow(3px 0px 10px rgb(0, 0, 0));
 }
 
@@ -847,15 +805,15 @@ body.light-mode .contact span, body.light-mode #errorList {
         margin-right: 0px;
     }
 
-    /* Grub Section - Mobile Version */
-    #grub.grub {
+    /* menu Section - Mobile Version */
+    #menu.menu {
         margin-left: auto;
         margin-right: auto;
         padding: 30px;
         flex-direction: column;
     }
 
-    .grub h2 {
+    .menu h2 {
         height: 40px;
         font-size: 1.5rem;
         margin-bottom: 0px;
@@ -864,16 +822,16 @@ body.light-mode .contact span, body.light-mode #errorList {
         padding-bottom: 0px;
     }
 
-    #grub h3 {
+    #menu h3 {
         margin-right: 0px;
         margin-left: 0px;
     }
 
-    .grub {
+    .menu {
         display: flex;
     }
 
-    #grub .section1 {
+    #menu .section1 {
         padding: 0px;
         display: flex;
         margin-left: auto;
@@ -882,38 +840,38 @@ body.light-mode .contact span, body.light-mode #errorList {
         margin-bottom: 30px;
     }
 
-    #grub .section1 img {
+    #menu .section1 img {
         width: 300px;
         height: 350px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .grub section p {
+    .menu section p {
         text-align: justify;
     }
 
-    .grub .section2 {
+    .menu .section2 {
         padding-left: 0px;
         padding-right: 0px;
         margin-bottom: 30px;
     }
 
-    #grub .section2 img {
+    #menu .section2 img {
         width: 300px;
         height: 350px;
     }
 
-    #grub .section3 {
+    #menu .section3 {
         padding: 0px;
     }
 
-    #grub .section3 img {
+    #menu .section3 img {
         width: 300px;
         height: 320px;
     }
 
-    .grub a {
+    .menu a {
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
@@ -952,38 +910,8 @@ body.light-mode .contact span, body.light-mode #errorList {
         text-align: center;
     }
 
-    /* Owner Section - Mobile Version */
-    .owner {
-        display: flex;
-        flex-direction: column;
-        padding: 40px;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    .owner h2 {
-        margin: 0px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .owner h3 {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .owner img {
-        width: 70vw;
-    }
-
-    .owner p {
-        margin-top: 30px;
-        margin-bottom: 0px;
-        text-align: justify;
-    }
-
+  
+    
     /* Contact Us Section - Mobile Version */
     .contact {
         display: flex;
@@ -1170,8 +1098,8 @@ body.light-mode .contact span, body.light-mode #errorList {
         margin-top: 75px;
     }
 
-    /* Grub section */
-    .grub#grub {
+    /* menu section */
+    .menu#menu {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 50px 1fr 85px;
@@ -1179,7 +1107,7 @@ body.light-mode .contact span, body.light-mode #errorList {
         padding-bottom: 50px;
     }
 
-    #grub .section1 {
+    #menu .section1 {
         margin-top: 0px;
         margin-bottom: 0px;
     }
@@ -1191,15 +1119,15 @@ body.light-mode .contact span, body.light-mode #errorList {
         margin-right: auto;
     }
 
-    #grub .section2 {
+    #menu .section2 {
         margin-bottom: 0px;
     }
 
-    #grub .section2 p {
+    #menu .section2 p {
         margin-bottom: 0px;
     }
 
-    #grub .section3 > img {
+    #menu .section3 > img {
         width: 350px;
         height: 350px;
     }
@@ -1229,28 +1157,6 @@ body.light-mode .contact span, body.light-mode #errorList {
         width: 350px;
     }
 
-    /* Owner section */
-    .owner {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 50px;
-    }
-
-    .owner h2 {
-        margin-top: 125px;
-    }
-
-    .owner h3 {
-        margin-top: 185px;
-    }
-
-    .owner img {
-        width: 350px;
-    }
-
-    .owner p {
-        margin-top: 250px;
-    }
 
     /* contact form */
     .contact {
