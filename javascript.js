@@ -101,10 +101,10 @@ resetButton.addEventListener("click", () => {
 function toggleImage() {
     let img = document.getElementById("image");
     
-    if (img.src.endsWith("sunny.png")) {
-        img.src = "images/lou-pines-logo.png";
+    if (img.src.endsWith("light.png")) {
+        img.src = "images/night.png";
     } else {
-        img.src = "images/sunny.png";
+        img.src = "images/light.png";
     }
     return false;
 }
